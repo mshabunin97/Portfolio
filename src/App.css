@@ -84,6 +84,8 @@ textarea {
 body {
   background-color: #f5f5f5;
   color: var(--text-color);
+  overflow-x: hidden;
+
 }
 
 h1,
