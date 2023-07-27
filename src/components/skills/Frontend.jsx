@@ -2,7 +2,7 @@ import React from "react";
 
 const Frontend = () => {
   return (
-    <div className="skills__content " data-aos="fade-up-right" data-aos-duration="700">
+    <div className="skills__content " data-aos="fade-up-right" data-aos-duration="700" data-aos-once="true">
       <div className="skills__title">Frontend developer</div>
       <div className="common">
         <div className="skills__wrapper">

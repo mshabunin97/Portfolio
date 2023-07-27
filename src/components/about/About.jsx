@@ -20,9 +20,9 @@ const About = () => {
             </span>
 
             <div className="about__container container">
-                <img src={AboutMe} alt="Me" className="about__img" data-aos="fade-up" data-aos-duration="2000"/>
+                <img src={AboutMe} alt="Me" className="about__img" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true"/>
 
-                <div className="about__data" data-aos="fade-left" data-aos-duration="2000">
+                <div className="about__data" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
 
                     <p className="about__description">
                     Hello! My name is Maxim Shabunin and Im a self-taught web developer currently based in Moscow, Russia.<br/>

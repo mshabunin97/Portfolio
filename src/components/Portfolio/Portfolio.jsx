@@ -69,7 +69,7 @@ const Portfolio = () => {
                 <AnimateHeading text="Portfolio" />
             </div>
             
-            <div className="portfolio__container container grid" data-aos="zoom-in" data-aos-duration="700">
+            <div className="portfolio__container container grid" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true">
                 {myWorks.map((proj) => {
                     return <ProjectCards key={proj.id} title={proj.title} projImg={proj.image} projDescr={proj.description} url={proj.url}/>
                 })}
